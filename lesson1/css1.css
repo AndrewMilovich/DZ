@@ -1,0 +1,27 @@
+.main-story {
+    background-color: aqua;
+    margin: 20px;
+}
+.photo-actor {
+    border: 10px solid black ;
+    margin: 20px;
+}
+.about-actor {
+    background-color: #e7d7e7;
+    font-size: 15px;
+    font-family: Calibri;
+    padding: 30px;
+}
+.biography {
+    padding: 10px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+.filmography {
+    padding: 10px;
+ margin: 20px;
+    background-color: rosybrown;
+}
+.about-career {
+    background-color: aliceblue;
+}
