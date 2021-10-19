@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 1500px;
+    height: 1000px;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.HEADER {
+    background-color: violet;
+    width: 1200px;
+    height: 200px;
+
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 400px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.post-direction {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 3;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.menu {
+
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.post {
+    background-color: black;
+    height: 400px;
+    /*width: 200px;*/
+    /*height: 300px;*/
+
+}
+
+.footer {
+    background-color: violet;
+    width: 1200px;
+    height: 200px;
+
+}

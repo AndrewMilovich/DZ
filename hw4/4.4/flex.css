@@ -1,0 +1,37 @@
+.Main{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: aquamarine;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+
+}
+aside{
+    background-color: violet;
+    flex-grow: 1;
+
+}
+header{
+    background-color:aqua;
+    width: 1200px;
+    height: 100px;
+}
+
+nav{
+    background-color: blue;
+    width: 1200px;
+    height: 100px;
+}
+footer{
+    background-color: blue;
+    width: 1200px;
+    height: 100px;
+}

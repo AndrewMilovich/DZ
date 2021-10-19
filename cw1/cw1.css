@@ -1,0 +1,65 @@
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+   column-gap: 10px;
+    row-gap: 10px;
+}
+.F{
+    background-color: violet;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.A{
+    background-color: violet;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.B{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BCDEF{
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.BCDE{
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.CDE{
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.common{
+    background-color: blue;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

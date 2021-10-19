@@ -1,0 +1,54 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.BCDEFGH {
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.BCDEFG {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.common {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+
+}
+
+.common2 {
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.A {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+.H {
+    width: 50%;
+    height: 200px;
+}
