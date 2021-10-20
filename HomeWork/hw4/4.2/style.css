@@ -1,0 +1,41 @@
+.main {
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.Common {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: #1f1fd2;
+    box-sizing: border-box;
+    height: 200px;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+
+.post-direction {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 3 1;
+    margin-right: 5px;
+}
+.menu {
+    flex: 1 3;
+    height: auto;
+}
+
+

@@ -1,0 +1,49 @@
+
+.main {
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.common {
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: #1f1fd2;
+    box-sizing: border-box;
+}
+
+
+.block_a {
+    height: 200px;
+    width: auto;
+}
+
+.block_b {
+    flex: 4 1;
+
+}
+
+.block_c {
+    flex: 1 4;
+
+}
+
+
