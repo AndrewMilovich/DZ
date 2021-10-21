@@ -1,0 +1,165 @@
+.Main_blue {
+    background: #99a5e7;
+    width: 100%;
+    height: 30px;
+
+}
+
+.four_lines {
+    padding-top: 10px;
+    padding-right: 12%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.line {
+    border-radius: 20px;
+    margin: 5px;
+    background: black;
+    width: 30px;
+    height: 10px;
+}
+
+.main_grey {
+    padding: 0 12%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: silver;
+    width: 100%;
+    height: 60px;
+}
+
+.first_brick {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15%;
+    background: black;
+    width: 100px;
+    height: 30px;
+}
+
+.four_lines_grey {
+    padding-left: 00px;
+    display: flex;
+}
+
+.line_grey {
+    width: 50px;
+}
+
+.common {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main_blue_2 {
+    padding-top: 10px;
+    background: #99a5e7;
+
+}
+
+.Count_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Count_line .line {
+    width: 150px;
+}
+
+.h5 {
+    height: 5px;
+}
+
+.h30 {
+    height: 30px;
+}
+
+.section6_line1 {
+
+    flex: 1 3 ;
+}
+.section6_line2 {
+    flex: 3 1 ;
+}
+.main_grey2{
+    display: flex;
+    background: silver;
+    justify-content: center;
+}
+.main_grey2 .Count_line{
+    width: 10%;
+}
+.Section_Message{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    flex-direction: column;
+    background: silver;
+
+
+
+}
+.section_Message1, .section_Message2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.darkblue, .lightblue {
+    width: 30%;
+    height: 250px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+
+}
+.darkblue{
+
+   background: darkblue;
+}
+.lightblue{
+
+    background: lightblue;
+}
+.section7{
+    padding: 30px 0;
+    background: silver;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.Main_Footer{
+    display: flex;
+    flex-direction: column;
+    background: #030933;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.Main_block_footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.block_footer{
+    border-radius: 10px;
+    background: silver;
+    width: 30px;
+}
+.Line_footer{
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #b2b270;
+    height: 5px;
+    width: 300px;
+}
