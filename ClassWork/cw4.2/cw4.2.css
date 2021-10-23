@@ -82,36 +82,41 @@
 
 .section6_line1 {
 
-    flex: 1 3 ;
+    flex: 1 3;
 }
+
 .section6_line2 {
-    flex: 3 1 ;
+    flex: 3 1;
 }
-.main_grey2{
+
+.main_grey2 {
     display: flex;
     background: silver;
     justify-content: center;
 }
-.main_grey2 .Count_line{
+
+.main_grey2 .Count_line {
     width: 10%;
 }
-.Section_Message{
+
+.Section_Message {
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
     flex-direction: column;
     background: silver;
 
 
-
 }
-.section_Message1, .section_Message2{
+
+.section_Message1, .section_Message2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
 }
+
 .darkblue, .lightblue {
     width: 30%;
     height: 250px;
@@ -120,15 +125,18 @@ justify-content: center;
     flex-direction: column;
 
 }
-.darkblue{
 
-   background: darkblue;
+.darkblue {
+
+    background: darkblue;
 }
-.lightblue{
+
+.lightblue {
 
     background: lightblue;
 }
-.section7{
+
+.section7 {
     padding: 30px 0;
     background: silver;
     display: flex;
@@ -136,7 +144,8 @@ justify-content: center;
     width: 100%;
     justify-content: center;
 }
-.Main_Footer{
+
+.Main_Footer {
     display: flex;
     flex-direction: column;
     background: #030933;
@@ -146,17 +155,20 @@ justify-content: center;
     align-items: center;
     align-content: center;
 }
-.Main_block_footer{
+
+.Main_block_footer {
     display: flex;
     flex-direction: row;
     column-gap: 10px;
 }
-.block_footer{
+
+.block_footer {
     border-radius: 10px;
     background: silver;
     width: 30px;
 }
-.Line_footer{
+
+.Line_footer {
     border-radius: 10px;
     margin-top: 20px;
     background: #b2b270;

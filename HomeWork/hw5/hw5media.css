@@ -1,0 +1,87 @@
+@media screen and (max-width: 450px ) {
+    .common {
+        width: 400px;
+        height: auto;
+    }
+
+    .Main_blue {
+        background: #b2b270;
+        height: 35px;
+    }
+
+    .Lines {
+        width: 10px;
+        height: 2px;
+    }
+
+    .four_lines {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 8px;
+    }
+
+    .four_lines .line {
+        width: 10px;
+        height: 3px;
+        margin: 1px;
+    }
+
+    .main_grey {
+        width: 100%;
+        height: auto;
+    }
+
+    .first_brick {
+        width: 30px;
+        height: 10px;
+    }
+
+    .four_lines_grey {
+        width: 150px;
+    }
+
+    .Main_blue_2 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.Count_line .line{
+    width:70px;
+}
+.border_blue{
+    border: none;
+}
+.Main_brick_section{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    justify-content: center;
+
+}
+.second_section{
+    flex-wrap: wrap;
+    height: auto;
+}
+.bottom_brick{
+    height: auto;
+    width: 50%;
+}
+.main_grey2 .Count_line{
+width: 25%;
+}
+.Section_Message{
+
+}
+.section_Message1, .section_Message2{
+    flex-direction: column;
+}
+.Main_message{
+    width: 50%;
+}
+}
