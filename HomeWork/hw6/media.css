@@ -1,0 +1,79 @@
+@media screen and (max-width: 450px) {
+
+.header_menu{
+    display: none;
+}
+.wrapper{
+    max-width: 340px;
+}
+.header__logo{
+        width: 40px;
+    }
+    .nav__btn__mobile{
+        display: flex;
+        flex-direction: column;
+    }
+   h2{
+       padding-bottom: 10px;
+       font-size: 30px;
+       line-height: 34px;
+   }
+   h1{
+       padding-bottom: 10px;
+       font-size: 40px;
+       line-height: 46px;
+   }
+   .header__text{
+       font-size: 15px;
+       line-height: 20px;
+   }
+   .header{
+
+       display: flex;
+       width: 340px;
+   }
+   .section__info{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: flex-start;
+       row-gap: 10px;
+
+   }
+   .header__line{
+       display: none;
+   }
+.History.wrapper{
+    margin-top: 550px;
+    flex-direction: column;
+}
+.history_food{
+    flex-direction: column;
+}
+.history_photo{
+    margin: 0;
+}
+.block__our__dish{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.block__action{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.action__header{
+    text-align: center;
+    width: fit-content;
+}
+p.action__text{
+    text-align: center
+}
+    .block__action .header__button{
+        margin: 0 0 20px 0;
+    }
+    .block__all__gamburger{
+        row-gap: 10px;
+    }
+}
