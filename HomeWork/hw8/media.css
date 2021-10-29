@@ -1,0 +1,31 @@
+@media screen and (max-width: 450px)
+{
+    .homepage{
+        width: 100%;
+    }
+    .main__section__one h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .section__two{
+        padding: 10px;
+    }
+    .section__one {
+        width: 100%;
+        margin: 0;
+    }
+    .main__section__one, .main__section__third{
+        width: 100%;
+        padding: 20px;
+    }
+    .text__section__one{
+        width: 100%;
+    }
+    .image, .image__section__third{
+        width: 100%;
+    }
+    .main__section__one p::before,
+    .main__section__one p::after {
+        display: none;
+    }
+}

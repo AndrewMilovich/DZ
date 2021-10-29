@@ -1,0 +1,120 @@
+.homepage {
+    width: 100%;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.nav-item {
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #45494F;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    mix-blend-mode: multiply;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.header__section__one {
+
+    font-weight: bold;
+    font-size: 48px;
+
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.text__section__one {
+
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 65px;
+    width: 500px; ;
+}
+
+.main__section__one {
+    margin-top: 150px;
+}
+
+.section__one {
+    margin-left: 100px;
+}
+
+.main__section__one p::before,
+.main__section__one p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 230px;
+    height: 7px;
+    background: #EDEFF3;
+}
+.main__section__one p::before{
+    bottom: 300px;
+}
+.main__section__one p::after {
+    bottom: 90px;
+}
+.section__two h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+.section__two p{
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.main__section__two{
+    margin-top: 80px;
+}
+.main__section__third{
+    padding-top: 60px;
+    padding-right: 160px;
+    padding-left: 140px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.image__section__third{
+    height: 729px;
+    background: url("image/building.png");
+}
+.main__section__third h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.main__section__third p{
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
