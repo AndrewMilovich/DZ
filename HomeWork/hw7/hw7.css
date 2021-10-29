@@ -1,0 +1,141 @@
+body {
+    background: #E5E5E5;
+}
+
+.homepage {
+    width: 100%;
+    height: 800px;
+    background: url("../hw6/image/Main_background.jpg") no-repeat center/cover;
+}
+.nav__btn__mobile {
+    display: none;
+    width: 30px;
+    row-gap: 4px;
+    flex-direction: column;
+}
+
+.nav__btn__mobile div {
+    height: 3px;
+    border-radius: 50px;
+    background: #FF7400;
+
+}
+
+.line__header {
+    width: 2px;
+    height: 40px;
+    background: white;
+}
+
+.header__button {
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    background: #FF7400;
+    border: none;
+    cursor: pointer;
+}
+
+.brown__color__text {
+    color: #D67E35;
+}
+
+.main {
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.header__line {
+    margin-top: 10px;
+    width: 50px;
+    background: white;
+    height: 2px;
+}
+
+.header_text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+h1 {
+    margin-top: -40px;
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.section__header__text {
+    margin-top: -30px;
+}
+
+.block__info {
+    background: white;
+    width: 350px;
+    height: 330px;
+
+}
+
+.section__info {
+    top: 100px;
+
+}
+
+h3.block__header__text {
+    color: #2C2C2C;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.block__info__text {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+
+.block__info__text__2 {
+    color: #BC9060;
+
+}
+.block__info {
+    padding-top: 50px;
+}
+.History{
+    margin-top: 100px;
+
+}
+.block_history{
+    width: 450px;
+}
+
+.count__food__items {
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.food__item {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+
+}
+.bg__action {
+    background: linear-gradient(rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.85)), url("image/bg_action.png");
+
+}
+
+p.action__text {
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
